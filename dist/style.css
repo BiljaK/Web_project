@@ -1,0 +1,77 @@
+body {
+  /*Background for entire page*/
+  background-image: URL(https://image.freepik.com/free-vector/elegant-pink-watercolor-texture-background_1017-19540.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
+.topdiv {
+  /*Styling the top "header" for my page*/
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: LightCoral;
+  border-width: 2px;
+  padding-left: 10px;
+  font-family: "Arial", Helvetica, sans-serif;
+  text-align: center;
+}
+
+.subtitle {
+  /*Making subtitle font littel biger*/
+  /*Also using em instead of px for font sizes for more consistent experience for both desktop and mobile devices*/
+  font-size: 1.4em;
+}
+
+.cleardiv {
+  /*A simple div*/
+  font-family: Verdana, Geneva, sans-serif;
+  text-align: center;
+}
+
+.boxdiv {
+  /*A blue box with rounded corners div*/
+  background-color: LightPink;
+  border: solid;
+  border-width: 2px;
+  border-color: DarkMagenta;
+  padding: 0px 20px 5px 20px;
+  border-radius: 25px;
+  font-family: Verdana, Geneva, sans-serif;
+  width: 55%;
+  margin: auto;
+}
+
+.center{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  
+}
+
+.table{
+  /*puts table in the center of the page*/
+  margin: auto;
+}
+
+.p{
+  text-align: left;
+}
+
+.li{
+  text-align: left;
+}
+
+.video{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  
+}
+
+.video2{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:auto;
+  margin-bottom:auto;
+}
